@@ -17,7 +17,7 @@ Here is the template for [worker](./worker/) and [client](./client/).
 
 ### Example
 
-There is already an example to illustrate how-to-apply-template, which can be in [example](./examples/)
+There is already an example to illustrate how-to-apply-template, which locates in [example](./examples/)
 
 #### Local Run (Worker)
 
