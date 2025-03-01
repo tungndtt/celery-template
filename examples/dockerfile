@@ -1,0 +1,10 @@
+FROM python:3.11
+
+WORKDIR /worker
+
+COPY . .
+RUN pip install --no-cache-dir -r requirements.txt
+
+VOLUME ["/var/log/celery", "/var/run/celery"]
+
+CMD ["./celery.sh"]
